@@ -1,0 +1,62 @@
+/* Variables containers */
+/* html {} - is the same as ":root{}" but with different specificity, as is: --name: value */
+:root {
+  --color-brand: #819b57;
+  --color-brand-dark: #465929;
+  --color-primary-dark: #31261a;
+  --color-primary-light: #faf4ea;
+}
+
+/* Base/Global styles */
+body {
+  color: var(--color-primary-dark);
+}
+ul {
+  list-style-type: none;
+}
+
+/* Button */
+.button {
+  cursor: pointer;
+  color: var(--color-primary-light);
+  border-radius: 8px;
+  border: 2px solid var(--color-brand);
+  background-color: var(--color-brand);
+}
+
+.button:hover {
+  background-color: transparent;
+  border: 2px solid var(--color-brand);
+  color: var(--color-brand-dark);
+}
+
+/* Navigation */
+.link {
+  color: var(--color-primary-light);
+}
+
+.link:hover {
+  color: var(--color-brand);
+}
+
+/* Hero-section */
+.hero-title {
+  color: var(--color-brand);
+}
+
+/* .hero-title span {
+  color: #faf4ea;
+} */
+
+.hero-title .accent-color {
+  color: var(--color-primary-light);
+}
+
+.advantages-list {
+  color: var(--color-primary-light);
+  background-color: var(--color-brand);
+}
+
+.section-title .accent-color {
+  color: var(--color-brand-dark);
+}

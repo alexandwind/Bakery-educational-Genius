@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tables example</title>
+  </head>
+  <body>
+    <!-- test table -->
+    <table>
+      <caption>Lorem, ipsum.</caption>
+      <thead>
+        <tr>
+          <th>No.</th>
+          <th>Name</th>
+          <th>Position</th>
+          <th>Salary</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>1</td>
+            <td>Alex</td>
+            <td>Junior</td>
+            <td rowspan="3">3000</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>John</td>
+            <td>Senior</td>
+            <!-- <td>5000</td> -->
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Ysef</td>
+            <td>Middle</td>
+            <!-- <td>4000</td> -->
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Victor</td>
+            <td>Top</td>
+            <td>100000</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+            <td colspan="3">Total salary</td> 
+          <!--   colspan, rowspan пишем в th, td тэги -->
+            <!-- <td>Name</td>
+            <td>Position</td> -->
+            <td>109000</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
