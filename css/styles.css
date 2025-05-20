@@ -10,6 +10,9 @@
 /* Base/Global styles */
 body {
   color: var(--color-primary-dark);
+  font-family: 'Playfair Display', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
 }
 ul {
   list-style-type: none;
@@ -33,6 +36,7 @@ ul {
 /* Navigation */
 .link {
   color: var(--color-primary-light);
+  text-decoration: none;
 }
 
 .link:hover {
@@ -42,6 +46,9 @@ ul {
 /* Hero-section */
 .hero-title {
   color: var(--color-brand);
+  text-align: center;
+  font-size: 128px;
+  font-weight: 900;
 }
 
 /* .hero-title span {
@@ -52,6 +59,7 @@ ul {
   color: var(--color-primary-light);
 }
 
+/* Advantages section */
 .advantages-list {
   color: var(--color-primary-light);
   background-color: var(--color-brand);
@@ -59,4 +67,14 @@ ul {
 
 .section-title .accent-color {
   color: var(--color-brand-dark);
+}
+
+/* Traditions section */
+.traditions-text .uppercase {
+  text-transform: uppercase;
+}
+
+.traditions-text span {
+  color: var(--color-brand);
+  font-weight: 600;
 }
